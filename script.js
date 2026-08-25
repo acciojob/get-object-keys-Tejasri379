@@ -1,17 +1,13 @@
-const user = {
-    name: "Tejasri",
-    role: "student",
-    phoneNumber: 9550577277,
-    summary : function(){
-        return "Tejasri is a student at AccioJob"
+const name = {
+    name: "Tejasri"
     }
 }
-function getKeys(obj){
+function getKeys(name){
     let array = []
-for(let key in obj){
+for(let key in name){
     console.log(key)
     array.push(key)
 }return array
 }
-console.log(getKeys(user))
+console.log(getKeys(name))
 //your JS code here. If required.
