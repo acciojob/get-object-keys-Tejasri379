@@ -2,9 +2,9 @@ const name = {
     name: "Tejasri"
     }
 }
-function getKeys(name){
+function getKeys(obj){
     let array = []
-for(let key in name){
+for(let key in obj){
     console.log(key)
     array.push(key)
 }return array
