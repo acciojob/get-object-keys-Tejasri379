@@ -3,11 +3,7 @@ const student = {
     }
 }
 function getKeys(obj){
-    let array = []
-for(let key in student){
-    console.log(key)
-    array.push(key)
-}return array
+   return Object.keys(obj)
 }
 console.log(getKeys(student))
 //your JS code here. If required.
