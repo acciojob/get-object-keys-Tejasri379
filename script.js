@@ -9,5 +9,5 @@ for(let key in student){
     array.push(key)
 }return array
 }
-console.log(getKeys(name))
+console.log(getKeys(student))
 //your JS code here. If required.
