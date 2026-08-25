@@ -1,7 +1,5 @@
-const student = {
-    name: "Tejasri"
-    }
-}
+const student = {name: "Tejasri "}
+
 function getKeys(obj){
    return Object.keys(obj)
 }
